@@ -1,0 +1,134 @@
+/* Filter General */
+body{
+    background-color: white;
+}
+
+#filter h2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 20px 0 0 12px;
+}
+
+/* Filter Header */
+#filter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#filter-header h1 {
+    margin: 0 0 0 45px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+#filter-back {
+    color: #667080;
+    margin-left: 7px;
+}
+#filer-reset {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #29A0DA;
+    margin-right: 31px;
+}
+
+/* Filter List */
+#filter-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 30px auto;
+}
+.filter-item {
+    border: 1px solid #29A0DA;
+    border-radius: 10px;
+    width: 170px;
+    height: 50px;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 13px;
+}
+.filter-item p {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.5px;
+    max-width: 110px;
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    margin: 0;
+}
+.filter-icon {
+    width: 36px;
+    position: absolute;
+    left: 5%;
+    top: 15%; 
+}
+#accessible {
+    border: 1px solid #1CA64B;
+    margin: 0 187px 30px 10px;
+}
+#spacious img {
+    margin-top: 8px;
+}
+#accessible p,
+#automatic-door p,
+#braille p,
+#elevator p,
+#large-print p,
+#quiet p,
+#ramp p,
+#scent-free p,
+#sign-language p,
+#spacious p,
+#stopgap-ramp p {
+    top: 28%;
+}
+
+/* Distance Units */
+#distance-units {
+    width: 350px;
+    height: 37px;
+    margin: 20px auto 50px auto;
+    border-radius: 10.5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#distance-units input {
+    display: none;
+}
+#distance-units label {
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 10px;
+    text-align: center;
+    border-radius: 10.5px;
+    display: inline-block;
+}
+#label-km {
+    background-color: #29A0DA;
+    color: #fff;
+    padding: 13.5px 91.5px;
+}
+#label-miles {
+    padding: 13.5px 60px;
+}
+
+/* Save Preferences */
+#btn-save {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+    background-color: #29A0DA;
+    color: #fff;
+    padding: 19px 67px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+}
